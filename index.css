@@ -1,0 +1,30 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.dot:hover {
+    cursor: pointer;
+}
+
+.tick {
+    font-size: 1em;
+}
+
+.tooltip {
+    background: rgba(171, 202, 206, .9);
+    padding: 5px;
+    border-radius: 10px;
+    pointer-events: none;
+}
+
+p {
+    margin: 0;
+}
